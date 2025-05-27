@@ -16,6 +16,11 @@ dbConnect().then(() => {
     app.get('/', (req, res) => {
         res.send('Hello World!');
     });
+
+    app.get('/haadiya', (req, res) => {
+        res.send('Hello World Haadiya!');
+    });
+
     
 }).catch(err => {
 
